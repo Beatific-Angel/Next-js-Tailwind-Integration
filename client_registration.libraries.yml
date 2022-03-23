@@ -1,6 +1,0 @@
-autocomplete_number_trimmer:
-  version: 1.0
-  js:
-    js/autocomplete_number_trimmer.js : {}
-  dependencies:
-    - core/jquery

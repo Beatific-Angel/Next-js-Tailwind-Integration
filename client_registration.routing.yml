@@ -1,7 +1,0 @@
-client_registration.register_by_organisation:
-  path: '/organisation/register/{slug}'
-  defaults:
-    _controller: '\Drupal\client_registration\Controller\OrganisationController::register'
-  requirements:
-    _permission: 'access content'
-    slug: '[a-zA-Z0-9]+'
